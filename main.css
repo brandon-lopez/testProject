@@ -43,7 +43,7 @@ a{
     position:relative;
     justify-content:center;
     flex-direction: column;
-    min-width:100px;
+    min-width:20px;
     white-space:normal;
 }
 .social{
@@ -63,9 +63,36 @@ a{
     box-shadow: 6px 6px 8px #3b383c;
     justify-content:center;
     align-items:center;
-    width: auto;
-    max-width: 100px; 
+    width: auto; 
+}
+.links a:hover{
+    top:1px;
+    left:1px;
 }
 /*!--.social a:last-child{
         margin-right: 14px;
 }*/
+.fa{
+    height:20px;
+    border-radius:100%;
+    color: white;
+    transition: width 2s, height 2s;
+    position:relative;
+}
+.fa-facebook{
+    background: #3B5998;
+}
+.fa-instagram{
+    background: #125688;
+}
+.fa-twitter{
+    background:#55ACEE;
+}
+.fa-linkedin{
+    background: #007bb5;
+}
+.fa:hover{
+    top:1.5px;
+    left:1.5px;
+    position: relative; 
+}
