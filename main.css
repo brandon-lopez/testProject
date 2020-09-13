@@ -65,8 +65,3 @@ a{
 .social a:last-child{
         margin-right: 0px;
 }
-
-*, :after, :before{
-    box-sizing: inherit;
-    box-sizing: border-box;
-}
